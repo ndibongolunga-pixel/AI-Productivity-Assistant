@@ -137,7 +137,7 @@ function TasksPage() {
             error={error}
             emptyHint="Describe a goal and deadline. We'll break it down into a sequenced plan you can act on today."
             onRegenerate={run}
-            canRegenerate={!!text && valid}
+            canRegenerate={!!text && !!valid}
           />
         </div>
       </div>

@@ -140,7 +140,7 @@ function EmailPage() {
             error={error}
             emptyHint="Fill in the form to generate a draft you can copy straight into your inbox."
             onRegenerate={run}
-            canRegenerate={!!text && valid}
+            canRegenerate={!!text && !!valid}
           />
         </div>
       </div>

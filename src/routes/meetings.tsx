@@ -118,7 +118,7 @@ function MeetingsPage() {
             error={error}
             emptyHint="Paste a transcript on the left. We'll structure it into the sections you actually need to share."
             onRegenerate={run}
-            canRegenerate={!!text && valid}
+            canRegenerate={!!text && !!valid}
           />
         </div>
       </div>
