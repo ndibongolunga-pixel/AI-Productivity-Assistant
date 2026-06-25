@@ -57,7 +57,7 @@ function Dashboard() {
     <AppShell>
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-12">
         <PageHeader
-          eyebrow="Workspace"
+          eyebrow="BubbleSpace"
           title="Focus on the work that matters."
           description="Worklight bundles three AI tools that automate the busywork around communication, meetings, and planning — so your day goes to high-value work."
         />
