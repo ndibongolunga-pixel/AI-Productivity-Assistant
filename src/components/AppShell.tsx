@@ -20,8 +20,8 @@ export function AppShell({ children }: { children?: ReactNode }) {
             <Sparkles className="size-5 text-sidebar-primary-foreground" />
           </div>
           <div>
-            <div className="font-display text-lg leading-none">Worklight</div>
-            <div className="text-[11px] uppercase tracking-widest opacity-60">AI Workspace</div>
+            <div className="font-display text-lg leading-none">{"\n"}</div>
+            <div className="text-[11px] uppercase tracking-widest opacity-60">{"\n"}</div>
           </div>
         </Link>
         <nav className="flex flex-col gap-1">
